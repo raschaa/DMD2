@@ -2,38 +2,38 @@
 
     <!-- NOT TRANSLATED -->
 
-    <string name="gpx_recorder_cat_title_precision">Recorder Precision</string>
+    <string name="gpx_recorder_cat_title_precision">Aufzeichnungs-Genauigkeit</string>
     <string name="gpx_recorder_cat_title_automation">Automation</string>
-    <string name="gps_record_minimum_distance">Minimum distance between points</string>
-    <string name="gpx_record_maximum_accuracy">Maximum allowed accuracy in meters (lower accuracy is more precise but might skip points)</string>
-    <string name="auto_record_gpx_title">Automatically Start Recording</string>
-    <string name="file_split_rule">Automatic recording file split rule</string>
+    <string name="gps_record_minimum_distance">Mindestentfernung zwischen Punkte</string>
+    <string name="gpx_record_maximum_accuracy">Zulässige Höchstgenauigkeit in Meter (niedrige Werte sind präziser, könnten aber da zu führen, dass Punkte übersprungen werden)</string>
+    <string name="auto_record_gpx_title">Aufzeichnung automatisch starten</string>
+    <string name="file_split_rule">Wann automatische aufgezeichnete Dateien aufgeteilt werden</string>
     <string-array name="gpx_auto_record_reason" translatable="true">
-        <item>Date Based - 1 file per day (Changes at 00:00)</item>
-        <item>Time Stopped - Starts new file after at least 6h stopped</item>
-        <item>Time Stopped - Starts new file after at least 8h stopped</item>
-        <item>Time Stopped - Starts new file after at least 12h stopped</item>
-        <item>Time Stopped - Starts new file after at least 24h stopped</item>
+        <item>Datumsbasiert - 1 Datei pro Tag (Wechsel um 00:00 Uhr)</item>
+        <item>Zeit im Stand - Neue Datei nach min. 6 Std. Stillstand</item>
+        <item>Zeit im Stand - Neue Datei nach min. 8 Std. Stillstand</item>
+        <item>Zeit im Stand - Neue Datei nach min. 12 Std. Stillstand</item>
+        <item>Zeit im Stand - Neue Datei nach min. 24 Std. Stillstand</item>
     </string-array>
-    <string name="auto_track_maker">Automatically Split into Tracks</string>
+    <string name="auto_track_maker">Automatische Aufteilung des Tracks nach:</string>
     <string-array name="auto_track_maker_reason" translatable="true">
-        <item>Do not create tracks automatically</item>
-        <item>Distance - 10 (Km / Miles)</item>
-        <item>Distance - 20 (Km / Miles)</item>
-        <item>Distance - 30 (Km / Miles)</item>
-        <item>Distance - 50 (Km / Miles)</item>
-        <item>Distance - 100 (Km / Miles)</item>
-        <item>Distance - 200 (Km / Miles)</item>
-        <item>Distance - 300 (Km / Miles)</item>
-        <item>Distance - 500 (Km / Miles)</item>
-        <item>Time - 30 minutes</item>
-        <item>Time - 1 hour</item>
-        <item>Time - 2 hours</item>
-        <item>Time - 3 hours</item>
-        <item>Time - 5 hours</item>
-        <item>Time - 8 hours</item>
-        <item>Time - 12 hours</item>
-        <item>Time - 24 hours</item>
+        <item>Kein automatisches Erstellen von Tracks</item>
+        <item>Entfernung - 10 Km</item>
+        <item>Entfernung - 20 Km</item>
+        <item>Entfernung - 30 Km</item>
+        <item>Entfernung - 50 Km</item>
+        <item>Entfernung - 100 Km</item>
+        <item>Entfernung - 200 Km</item>
+        <item>Entfernung - 300 Km</item>
+        <item>Entfernung - 500 Km</item>
+        <item>Zeit - 30 Minuten</item>
+        <item>Zeit - 1 Stunde</item>
+        <item>Zeit - 2 Stunde</item>
+        <item>Zeit - 3 Stunde</item>
+        <item>Zeit - 5 Stunde</item>
+        <item>Zeit - 8 Stunde</item>
+        <item>Zeit - 12 Stunde</item>
+        <item>Zeit - 24 Stunde</item>
     </string-array>
 
     <string name="auto_waypoint_maker">Automatically Create Waypoints</string>
@@ -61,46 +61,46 @@
         <item>Time - 24 hours</item>
     </string-array>
     <string name="gpx_recorder_title">GPX Recorder</string>
-    <string name="gpx_recorder_state_stopped">Inactive (Press to Record)</string>
-    <string name="gpx_recorder_state_recording">Recording (Press to Pause)</string>
-    <string name="gpx_recorder_state_paused">Paused (Press to Resume)</string>
+    <string name="gpx_recorder_state_stopped">Inaktiv (Drücken um Aufzuzeichnen)</string>
+    <string name="gpx_recorder_state_recording">Aktiv (Drücken zum Pausieren)</string>
+    <string name="gpx_recorder_state_paused">Pause (Drücken um weiter Aufzuzeichnen)</string>
     <string name="gpx_recorder_manage_tracks">Tracks</string>
-    <string name="gpx_recorder_manage_waypoints">Waypoints</string>
-    <string name="gpx_recorder_manage_finish">Finish</string>
-    <string name="gpx_recorder_manage_options">Settings</string>
-    <string name="gpx_recorder_finish_confirmation">Are you sure you want to finish the recording? This cannot be undone!</string>
-    <string name="gpx_recorder_finish_name">Set the GPX file name</string>
-    <string name="gpx_recorder_empty_error">GPX Recording is empty, no file created!</string>
-    <string name="gpx_recorder_already_exists_error">A file with that name already exists, please choose a different name!</string>
+    <string name="gpx_recorder_manage_waypoints">Wegpunkte</string>
+    <string name="gpx_recorder_manage_finish">Fertigstellen</string>
+    <string name="gpx_recorder_manage_options">Einstellungen</string>
+    <string name="gpx_recorder_finish_confirmation">Sicher das Du die Aufzeichnung fertigstellen willst? Dies kann nicht rückgängig gemacht werden!</string>
+    <string name="gpx_recorder_finish_name">GPX-Datei Namen</string>
+    <string name="gpx_recorder_empty_error">GPX Aufzeichnung ist leer. Keine Datei erzeugt!</string>
+    <string name="gpx_recorder_already_exists_error">Es existiert bereits eine Datei mit diesem Namen. Bitte einen neuen Namen wählen!</string>
     <string name="gpx_recorder_tracks_label">Tracks:</string>
-    <string name="gpx_recorder_waypoints_label">Waypoints:</string>
-    <string name="gpx_recorder_points_label">Points:</string>
-    <string name="gpx_recorder_distance_label">Distance:</string>
-    <string name="gpx_recorder_time_label">Time:</string>
-    <string name="gpx_recorder_started_label">Date:</string>
-    <string name="gpx_not_recording_error">GPX not recording. Start recording first!</string>
-    <string name="gpx_recorder_discard">Discard GPX</string>
-    <string name="gpx_recorder_advanced_options">Advanced</string>
-    <string name="gpx_recorder_manual_mode">Manual Mode</string>
-    <string name="gpx_recorder_automatic_mode">Automatic Mode</string>
-    <string name="gpx_recorder_error_no_points_yet">You have not recorded any point yet!</string>
-    <string name="gpx_recorder_waypoint_error_no_location">No valid location yet, try again after you get a valid location update!</string>
-    <string name="gpx_recorder_layout_done">Done</string>
-    <string name="gpx_recorder_layout_show_track_lines">Show lines on map:</string>
-    <string name="gpx_recorder_layout_show_waypoints_lines">Show waypoints on map:</string>
-    <string name="gpx_recorder_layout_default_track_color">Line color (overwrites current):</string>
-    <string name="gpx_recorder_layout_set_waypoint_name">Set the Waypoint title:</string>
-    <string name="gpx_recorder_layout_set_track_name">Set the Track title:</string>
-    <string name="gpx_recorder_controls_name">Controls</string>
-    <string name="gpx_recorder_no_tracks_yet_error">No tracks yet!</string>
-    <string name="gpx_recorder_no_waypoints_yet_error">No waypoints yet!</string>
-    <string name="gpx_recorder_track_edit_title">Track Title:</string>
-    <string name="gpx_recorder_track_edit_description">Track Description:</string>
-    <string name="gpx_recorder_track_edit_save_done">Done</string>
-    <string name="gpx_recorder_waypoint_edit_title">Waypoint Title:</string>
-    <string name="gpx_recorder_waypoint_edit_description">Waypoint Description:</string>
-    <string name="gpx_recorder_rewind_error_not_recording">Recorder is stopped, nothing to edit!</string>
-    <string name="gpx_recorder_rewind_instructions">Tap anywhere on the track to cut back to that point, use the crosshair button above to cut to your current location, or use the controls to move in time:</string>
+    <string name="gpx_recorder_waypoints_label">Wegpunkte:</string>
+    <string name="gpx_recorder_points_label">Punkte:</string>
+    <string name="gpx_recorder_distance_label">Entfernung:</string>
+    <string name="gpx_recorder_time_label">Zeit:</string>
+    <string name="gpx_recorder_started_label">Datum:</string>
+    <string name="gpx_not_recording_error">GPX wird nicht aufgezeichnet. Zuerst Aufzeichnung starten!</string>
+    <string name="gpx_recorder_discard">Lösche GPX</string>
+    <string name="gpx_recorder_advanced_options">Fortgeschritten</string>
+    <string name="gpx_recorder_manual_mode">Manueller Modus</string>
+    <string name="gpx_recorder_automatic_mode">Automatic Modus</string>
+    <string name="gpx_recorder_error_no_points_yet">Du hast noch keine Punkte aufgezeichnet!</string>
+    <string name="gpx_recorder_waypoint_error_no_location">Noch kein gültiger Standort. Versuche es erneut, nachdem Du ein gültiges Standortupdate erhalten hast!</string>
+    <string name="gpx_recorder_layout_done">Fertig</string>
+    <string name="gpx_recorder_layout_show_track_lines">Zeige Linien auf der Karte:</string>
+    <string name="gpx_recorder_layout_show_waypoints_lines">Zeige Wegpunkte auf der Karte:</string>
+    <string name="gpx_recorder_layout_default_track_color">Linien Farbe (überschreibt aktuelle):</string>
+    <string name="gpx_recorder_layout_set_waypoint_name">Setzen des Wegpunkt Namens:</string>
+    <string name="gpx_recorder_layout_set_track_name">Setzen des Track Namens:</string>
+    <string name="gpx_recorder_controls_name">Steuerung</string>
+    <string name="gpx_recorder_no_tracks_yet_error">Noch keine Tracks!</string>
+    <string name="gpx_recorder_no_waypoints_yet_error">Noch keine Wegpunkte!</string>
+    <string name="gpx_recorder_track_edit_title">Track Namen:</string>
+    <string name="gpx_recorder_track_edit_description">Track Beschreibung:</string>
+    <string name="gpx_recorder_track_edit_save_done">Fertig</string>
+    <string name="gpx_recorder_waypoint_edit_title">Wegpunkt Namen:</string>
+    <string name="gpx_recorder_waypoint_edit_description">Wegpunkt Beschreibung:</string>
+    <string name="gpx_recorder_rewind_error_not_recording">Aufzeichnung gestoppt, nichts zum editieren!</string>
+    <string name="gpx_recorder_rewind_instructions">Tippe an beliebiger Stelle auf dem Track um zu der Position zurückzukehren. Nutze den Fadenkreuz-Knopfuse um zur aktuellen Position zu springen oder nutze die Steuerung um vor oder zurück zu spulen:</string>
 
 
     <!-- END OF NOT TRANSLATED -->
